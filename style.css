@@ -1,0 +1,61 @@
+ body {
+      background:lightblue;
+  
+    .wrapper {
+      width: 1000px;
+      margin: 0px auto;
+      text-align: center;
+      font-family: arial;
+      font-size: 16px;
+      line-height: 29px;
+      margin-top: 50px;
+    }
+
+    .future-weather {
+      display: inline-flex;
+      width: 100%;
+    }
+
+    .future-weather  {
+        div {
+      width: 25%;
+      font-size: 20px;
+      border-top: 1px solid black;
+      border-right: 1px solid black;
+      margin-top: 40px;
+     background:white;
+     
+        }    
+    }
+
+    .weather_temp {
+      display: block;
+      padding: 20px;
+      border-bottom: 1px solid black;
+      height: 40px;
+      align-items: center;
+      display: flex;
+      border-left: 1px solid black;
+      text-align: center;
+      justify-content: space-around;
+
+    }
+
+    .label {
+      background: lightblue;
+    }
+
+    .weather_humidity {
+      display: block;
+      padding: 20px;
+    }
+
+    .weather {
+        &__btn {
+            width:100px;
+            display:block;
+            margin:20px auto;
+
+        }
+    }
+}

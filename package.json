@@ -1,0 +1,36 @@
+{
+  "name": "weatherapp-test",
+  "version": "1.0.0",
+  "description": "a test app for weather display",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack -w",
+    "server": "node server.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "gary butler",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "express": "^4.16.3",
+    "extract-text-webpack-plugin": "4.0.0-alpha.0",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "postcss": "^6.0.21",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.4",
+    "postcss-nested": "^3.0.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack-cli": "^2.0.14"
+  }
+}
