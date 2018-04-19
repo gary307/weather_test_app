@@ -5,12 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "build": "webpack -w",
+    "build": "webpack",
     "server": "node server.js"
   },
-  "keywords": [
-    "test"
-  ],
+  "keywords": ["test"],
   "author": "gary butler",
   "license": "ISC",
   "dependencies": {
